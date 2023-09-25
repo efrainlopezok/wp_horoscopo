@@ -1,0 +1,854 @@
+/* Custom CSS */
+.site-header{
+    border-bottom: 3px solid #e5e5e5;
+    padding: 10px;
+}
+.site-header a{
+    outline: none;
+    color: #364962;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.r-menu{
+    display: block;
+    width: 30px;
+    cursor: pointer;
+    position: relative;
+    float: right;
+}
+.r-menu span{
+    width: 100%;
+    display: block;
+    height: 3px;
+    margin-bottom: 6px;
+    border-radius: 2px;
+    background: #ffffff;
+    -webkit-transition-property: -webkit-transform,-webkit-transform;
+    transition-property: transform,-webkit-transform;
+    -webkit-transition-duration: .15s;
+    transition-duration: .15s;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+}
+.r-menu span:nth-last-child(1){
+    margin-bottom: 0;
+}
+.menu-toggle.activated .r-menu span:nth-child(1){
+    top: 11px;
+    position: relative;
+    -webkit-transform: rotate(139deg);
+    -ms-transform: rotate(139deg);
+    transform: rotate(139deg);
+    -webkit-transition: bottom .1s ease-out,-webkit-transform .22s .12s cubic-bezier(0.215,.61,.355,1),-webkit-transform .22s .12s cubic-bezier(0.215,.61,.355,1);
+    transition: bottom .1s ease-out,transform .22s .12s cubic-bezier(0.215,.61,.355,1),-webkit-transform .22s .12s cubic-bezier(0.215,.61,.355,1);
+}
+.menu-toggle.activated .r-menu span:nth-child(2){
+    opacity: 0;
+}
+.menu-toggle.activated .r-menu span:nth-child(3){
+    bottom: 7px;
+    position: relative;
+    -webkit-transform: rotate(-137deg);
+    -ms-transform: rotate(-137deg);
+    transform: rotate(-137deg);
+    -webkit-transition: bottom .1s ease-out,-webkit-transform .22s .12s cubic-bezier(0.215,.61,.355,1),-webkit-transform .22s .12s cubic-bezier(0.215,.61,.355,1);
+    transition: bottom .1s ease-out,transform .22s .12s cubic-bezier(0.215,.61,.355,1),-webkit-transform .22s .12s cubic-bezier(0.215,.61,.355,1);
+}
+
+/* Contacto */
+.formulario-principal{
+    max-width: 510px;
+}
+.formulario-principal p{
+    margin-bottom: 20px;
+}
+.formulario-principal label{
+    font-size: 13px;
+    font-weight: 600;
+    color: #333333;
+}
+.formulario-principal .wpcf7-list-item{
+    margin-left: 0;
+}
+.formulario-principal .wpcf7-list-item a{
+    color: #586376;
+    text-decoration: none;
+}
+.politica-privacidad-check{
+    margin-bottom: 20px;
+}
+.formulario-principal input[type="submit"]{
+    width: 100%;
+    background: transparent;
+    color: #9da4b0;
+    border-color: #9da4b0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Home */
+.signo-dsc{
+    text-align: center;
+    border: 1px solid #e7e6e7;
+    margin-bottom: 18px;
+    border-radius: 4px;
+}
+.signo-dsc h3{
+    font-size: 22.33px;
+    font-weight: 400;
+}
+.signo-dsc .img{
+    padding: 15px 25px;
+}
+.signo-dsc a{
+    display: block;
+    /*text-transform: uppercase;*/
+    text-decoration: none;
+    color: #90a1b8;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.signo-dsc .section-signos{
+    border-top: 1px solid #e7e6e7;
+    border-bottom: 1px solid #e7e6e7;
+    padding-top: 5px;
+}
+.signo-dsc .fecha-signo{
+    color: #90a1b8;
+    font-size: 13px;
+    /*letter-spacing: -1px;*/
+    padding: 7px 0;
+}
+.signo-dsc .img .img-signo:after{
+    content: "";
+    height: 98px;
+    width: 100%;
+    display: inline-block;
+    background: url(../images/img-signos-dcs.png) no-repeat;
+}
+.signo-dsc .img .acuario:after{
+    
+    background-position: -30px 0px;
+}
+.signo-dsc .img .piscis:after{
+    background-position: -221px 0px;
+}
+.signo-dsc .img .aries:after{
+    background-position: -417px 0px;
+}
+.signo-dsc .img .tauro:after{
+    background-position: -610px 0px;
+}
+.signo-dsc .img .geminis:after{
+    background-position: -803px 0px;
+}
+.signo-dsc .img .cancer:after{
+    background-position: -997px 0px;
+}
+.signo-dsc .img .leo:after{
+    background-position: -1173px 0px;
+}
+.signo-dsc .img .virgo:after{
+    background-position: -1373px 0px;
+}
+.signo-dsc .img .libra:after{
+    background-position: -1571px 0px;
+}
+.signo-dsc .img .escorpio:after{
+    background-position: -1766px 0px;
+}
+.signo-dsc .img .sagitario:after{
+    background-position: -1959px 0px;
+}
+.signo-dsc .img .capricornio:after{
+    background-position: -2153px 0px;
+}
+.banner-propaganda{
+    padding: 15px 0;
+    padding-bottom: 35px;
+}
+.banner-propaganda p,
+.banner-propaganda img{
+    margin-bottom: 0;
+}
+.before-home-content{
+    padding-top: 45px;
+    border-bottom: 2px solid #eaeced;
+}
+.before-home-content h2{
+    font-weight: 400;
+    font-size: 30px;
+    color: #364962;
+    margin-bottom: 0;
+}
+.signos-menu{
+    padding: 6px;
+    padding-top: 9px;
+    border-bottom: 2px solid #e3e3e3;
+}
+.signos-menu .menu li{
+    display: inline-block;
+    width: calc(100% / 13);
+}
+.signos-menu .menu li a{
+    font-size: 0px;
+    color: transparent;
+    opacity: .7;
+}
+.signos-menu .menu li a:hover{
+    opacity: 1;
+}
+.signos-menu .menu li.menu-item a:before{
+     content: "";
+    display: inline-block;
+    height: 30px;
+    width: 100%;
+    background: url(../images/img-signos.png) no-repeat;
+}
+.signos-menu .menu li.acuario a:before{
+    background-position: 15px -9px;
+}
+.signos-menu .menu li.piscis a:before{
+    background-position: -90px -9px;
+}
+.signos-menu .menu li.aries a:before{
+    background-position: -195px -10px;
+}
+.signos-menu .menu li.tauro a:before{
+    background-position: -300px -10px;
+}
+.signos-menu .menu li.geminis a:before{
+    background-position: -400px -10px;
+}
+.signos-menu .menu li.cancer a:before{
+    background-position: -500px -10px;
+}
+.signos-menu .menu li.leo a:before{
+    background-position: -600px -10px;
+}
+.signos-menu .menu li.virgo a:before{
+    background-position: -700px -10px;
+}
+.signos-menu .menu li.libra a:before{
+    background-position: -800px -10px;
+}
+.signos-menu .menu li.escorpio a:before{
+    background-position: -900px -10px;
+}
+.signos-menu .menu li.sagitario a:before{
+    background-position: -1000px -10px;
+}
+.signos-menu .menu li.capricornio a:before{
+    background-position: -1100px -10px;
+}
+
+/* Page Horoscopo
+-----------------------*/
+.before-signo-content{
+    padding-top: 45px;
+}
+.before-signo-content .feature-signo{
+    max-width: 33px;
+}
+.before-signo-content .banner-propaganda{
+    padding-top: 0;
+}
+.before-signo-content h2{
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 40px;
+    font-weight: 500;
+}
+.before-signo-content .img-t{
+    max-width: 30px;
+}
+.signo thead td{
+    padding: 25px 20px;
+}
+
+.signo td p{
+    margin-bottom: 0;
+    line-height: 22.05px;
+}
+.signo td:first-child, 
+.signo th:first-child{
+    width: 30%;
+    text-align: center;
+    font-weight: 700;
+    border-left: 1px solid #eee;
+}
+.signo tr td:last-child{
+    border-right: 1px solid #eee;
+}
+.page-template-signo  .before-home-content{
+    border-bottom: 0;
+}
+.page-template-signo .content .entry{
+    padding-top: 5px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+/* Section  Share
+-----------------------*/
+.com-horos{
+    margin-bottom: 45px;
+}
+.com-horos a{
+    display: block;
+    color: #90a1b8;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #eee;
+}
+.com-horos a::before{
+    content: "";
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 0 5px 0 0;
+    height: 25px;
+    width: 25px;
+    background: url(../images/btn-socials.png) no-repeat;
+    background-size: cover;
+}
+.com-horos .face-c::before{
+    background-position: 0px 0px;
+}
+.com-horos .whatsapp-c::before{
+    background-position: -334px 0px;
+    height: 25px;
+    width: 27px;
+}
+.com-horos .twitter-c::before{
+    background-position: -679px 0px;
+    height: 25px;
+    width: 27px;
+}
+.com-horos .fa{
+    font-size: 21px;
+}
+.com-horos .fa-facebook-official{
+ color: #475993;
+}
+.com-horos .fa-whatsapp{
+ color: #4caf50;
+}
+.com-horos .fa-twitter{
+ color: #03a9f4;
+}
+.nav-primary.footer{
+    margin-bottom: 15px;
+    border-bottom: 0;
+}
+.nav-primary.footer ul{
+    clear: both;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-primary.footer ul li{
+    width: 31.5%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: left;
+    text-align: center;
+    background: #0c77f8;
+    display: inline-block;
+}
+.nav-primary.footer ul li a{
+        color: #fff;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+/* Page Hoy
+-----------------------*/
+.box-hoy{
+    border: 1px solid #eee;
+    padding: 20px 16px;
+    margin-bottom: 3rem;
+}
+.box-hoy p:last-child{
+    margin-bottom: 0;
+}
+.before-signo-content.hoy .wrap > p:first-of-type{
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+/* Pagina Hoy
+------------------------*/
+.pagina-hoy.before-home-content{
+    border-bottom: 0;
+}
+.pagina-hoy .signo-dsc{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.pagina-hoy .signo-dsc .img .img-signo:after{
+    width: 110px;
+}
+.pagina-hoy .signo-dsc .img {
+    padding: 15px 14px;
+    border-right: 1px solid #e7e6e7;
+}
+.pagina-hoy .signo-dsc .fecha-signo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    font-size: 14px;
+}
+.pagina-hoy .signo-dsc .fecha-signo span{
+    margin-bottom: 22px;
+}
+.pagina-hoy .signo-dsc .fecha-signo span,
+.pagina-hoy .signo-dsc .fecha-signo h3{
+    padding-left: 15px;
+}
+.pagina-hoy .signo-dsc .section-signos {
+    width: 100%;
+    border-bottom: 0;
+    padding-top: 17px;
+    padding: 5px 10px;
+}
+.pagina-hoy  .section-signos{
+    position: absolute;
+    bottom: 0;
+}
+.pagina-hoy .signo-dsc a{
+    margin-bottom: 0;
+}
+.pagina-hoy + .content-sidebar-wrap .content .entry {
+    background-color: #fff;
+    margin-bottom: 0px;
+    padding: 20px 20px;
+}
+
+.genesis-nav-menu a:hover{
+    color: #58829e;
+}
+.signo-dsc a{
+    font-size: 15px;
+}
+.signo-dsc .fecha-signo{
+    color: #90a1b8;
+    font-size: 12px;
+    /* letter-spacing: -1px; */
+    padding: 7px 0;
+}
+/*Aplica para: Homepage, Aviso legal, Política de privacidad y Contacto.*/
+.entry {
+    margin-bottom: 0;
+    padding: 4rem 2rem;
+}
+/*Form contact*/
+.formulario-principal{
+    max-width: 600px;
+}
+.formulario-principal label{
+    font-size: 1.5rem;
+}
+div.wpcf7 .wpcf7-submit:disabled{
+    background-color: #fff;
+}
+/*menu*/
+.genesis-nav-menu .current-menu-item>a{
+    color: #90a1b8;
+}
+
+@media screen and (max-width: 1200px){
+    .signo-dsc .img .cancer:after{
+        background-position: -613px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .geminis:after{
+        background-position: -493px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .tauro:after{
+        background-position: -372px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .aries:after{
+        background-position: -253px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .piscis:after{
+        background-position: -132px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .acuario:after{
+        background-position: -15px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .capricornio:after{
+        background-position: -1334px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .sagitario:after{
+        background-position: -1212px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .escorpio:after{
+        background-position: -1092px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .libra:after{
+        background-position: -971px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .virgo:after{
+        background-position: -852px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .leo:after{
+        background-position: -729px 24px;
+        background-size: 1430px;
+    }
+    .genesis-nav-menu .menu-item{
+        margin: 0 15px;
+    }
+    .signos-menu .menu li{
+        width: 73px;
+        display: inline-block;
+        margin: 5px 0;
+    }
+    .signos-menu ul.menu{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1023px){
+    .signo-dsc .img .cancer:after{
+        background-position: -629px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .geminis:after{
+        background-position: -508px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .tauro:after{
+        background-position: -387px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .aries:after{
+        background-position: -266px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .piscis:after{
+        background-position: -145px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .acuario:after{
+        background-position: -30px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .capricornio:after{
+        background-position: -1346px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .sagitario:after{
+        background-position: -1222px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .escorpio:after{
+        background-position: -1105px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .libra:after{
+        background-position: -984px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .virgo:after{
+        background-position: -863px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .leo:after{
+        background-position: -741px 24px;
+        background-size: 1430px;
+    }
+    /* menus */
+    /*.nav-primary.genesis-responsive-menu{
+        background: #1a4765;
+    }
+    .genesis-responsive-menu .genesis-nav-menu .menu-item a{
+        color: #ffffff;
+    }*/
+    .genesis-responsive-menu .genesis-nav-menu .menu-item a{
+        text-align: center;
+    }
+    #genesis-mobile-nav-primary{
+        background: #1a4765;   
+    }
+    .signos-menu .menu li{
+        width: 62px;
+    }
+     .pagina-hoy .signo-dsc{
+        flex-direction: column;
+    }
+    .pagina-hoy .section-signos{
+        position: relative;
+    }
+    .pagina-hoy .signo-dsc .fecha-signo{
+        align-items: center;
+        padding-bottom: 0;
+    }
+    .pagina-hoy .signo-dsc .fecha-signo span, 
+    .pagina-hoy .signo-dsc .fecha-signo h3{
+        padding-left: 0;
+        margin-bottom: 7px;
+    }
+    .pagina-hoy .signo-dsc .fecha-signo span{
+        margin-bottom: 12px;
+    }
+    .pagina-hoy .signo-dsc .img{
+        border-right: 0;
+        padding: 8px 14px;
+    }
+}
+@media screen and (max-width: 991px){
+    .signo-dsc .img .cancer:after{
+        background-position: -595px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .geminis:after{
+        background-position: -470px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .tauro:after{
+        background-position: -355px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .aries:after{
+        background-position: -231px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .piscis:after{
+        background-position: -111px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .acuario:after{
+        background-position: 9px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .capricornio:after{
+        background-position: -1312px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .sagitario:after{
+        background-position: -1189px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .escorpio:after{
+        background-position: -1068px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .libra:after{
+        background-position: -948px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .virgo:after{
+        background-position: -830px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .leo:after{
+        background-position: -705px 24px;
+        background-size: 1430px;
+    }
+}
+@media screen and (max-width: 860px){
+    .signo-dsc .img .cancer:after{
+        background-position: -603px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .geminis:after{
+        background-position: -481px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .tauro:after{
+        background-position: -364px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .aries:after{
+        background-position: -243px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .piscis:after{
+        background-position: -123px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .acuario:after{
+        background-position: 0px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .capricornio:after{
+        background-position: -1323px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .sagitario:after{
+        background-position: -1201px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .escorpio:after{
+        background-position: -1080px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .libra:after{
+        background-position: -959px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .virgo:after{
+        background-position: -842px 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .leo:after{
+        background-position: -716px 24px;
+        background-size: 1430px;
+    }
+}
+@media screen and (max-width: 767px){
+    .signo-dsc .img .cancer:after{
+        background-position: 45.4% 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .geminis:after{
+        background-position: 36% 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .tauro:after{
+        background-position: 26.8% 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .aries:after{
+        background-position: 17.8% 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .piscis:after{
+        background-position: 8.5% 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .acuario:after{
+        background-position: -1% 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .capricornio:after{
+        background-position: 100.5% 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .sagitario:after{
+        background-position: 91% 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .escorpio:after{
+        background-position: 82% 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .libra:after{
+        background-position: 72.8% 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .virgo:after{
+        background-position: 63.5% 24px;
+        background-size: 1430px;
+    }
+    .signo-dsc .img .leo:after{
+        background-position: 54% 24px;
+        background-size: 1430px;
+    }
+}
+@media screen and (max-width: 575px){
+    .signo-dsc .img .cancer:after,
+    .signo-dsc .img .geminis:after,
+    .signo-dsc .img .tauro:after,
+    .signo-dsc .img .aries:after,
+    .signo-dsc .img .piscis:after,
+    .signo-dsc .img .acuario:after,
+    .signo-dsc .img .capricornio:after,
+    .signo-dsc .img .sagitario:after,
+    .signo-dsc .img .escorpio:after,
+    .signo-dsc .img .libra:after,
+    .signo-dsc .img .virgo:after,
+    .signo-dsc .img .leo:after{
+        max-width: 135px;
+        margin: 0 auto;
+    }
+    .signos-menu .menu li{
+        width: 35px;
+    }
+    .signos-menu .menu li.acuario a:before{
+        background-position: -6px -5px;
+        background-size: 850px;
+    }
+    .signos-menu .menu li.piscis a:before{
+        background-position: -81px -5px;
+        background-size: 850px;
+    }
+    .signos-menu .menu li.aries a:before{
+        background-position: -157px -5px;
+        background-size: 850px;
+    }
+    .signos-menu .menu li.tauro a:before{
+        background-position: -230px -5px;
+        background-size: 850px;
+    }
+    .signos-menu .menu li.geminis a:before{
+        background-position: -301px -5px;
+        background-size: 850px;
+    }
+    .signos-menu .menu li.cancer a:before{
+        background-position: -372px -5px;
+        background-size: 850px;
+    }
+    .signos-menu .menu li.leo a:before{
+        background-position: -448px -5px;
+        background-size: 850px;
+    }
+    .signos-menu .menu li.virgo a:before{
+        background-position: -519px -5px;
+        background-size: 850px;
+    }
+    .signos-menu .menu li.libra a:before{
+        background-position: -594px -5px;
+        background-size: 850px;
+    }
+    .signos-menu .menu li.escorpio a:before{
+        background-position: -664px -5px;
+        background-size: 850px;
+    }
+    .signos-menu .menu li.sagitario a:before{
+        background-position: -735px -5px;
+        background-size: 850px;
+    }
+    .signos-menu .menu li.capricornio a:before{
+        background-position: -809px -5px;
+        background-size: 850px;
+    }
+	.signo tr td:last-child,
+    .signo td:first-child, 
+    .signo th:first-child{
+        display: block;
+        display: block;
+        border: 1px solid #eee;
+        width: 100%;
+        text-align: left;
+        padding-left: 15px;
+
+    }
+    .before-home-content h2 {
+        font-size: 22px;
+    }
+}
+
